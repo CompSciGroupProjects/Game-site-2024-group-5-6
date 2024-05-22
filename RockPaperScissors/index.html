@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container-fluid p-4 mt-1 text-center bg-primary mb-5" id = "mainheader">
+    <h1>Rock Paper Scissors</h1>
+</div>
+
+<div class="container justify-content-center text-center" id ="mainContainer">
+
+    <div class="row justify-content-center text-center">
+        <h3>Choose Your Input</h3>
+    </div>
+
+    <div class="row justify-content-center text-center" id="playSelection">
+
+        <div onclick="selectInput('rock')" class="col justify-content-center text-center">
+            <img src="https://images.vexels.com/media/users/3/145684/isolated/preview/01c67d3d73e2e6420cff24303fc5becf-gravel-rock.png">
+        </div>
+
+        <div onclick="selectInput('paper')" class="col justify-content-center text-center">
+            <img src="https://www.freepngdesign.com/content/uploads/images/paper-emoji-4500.png">
+        </div>
+
+        <div onclick="selectInput('scissors')" class="col justify-content-center text-center">
+            <img src="https://images.vexels.com/media/users/3/254863/isolated/preview/7244ff4b95fbce00f953018163201f82-scissors-semi-flat.png">
+        </div>
+
+    </div>
+
+    <div class="row justify-content-center text-center" id="choiceDisplays">
+
+        <div class="col justify-content-center text-center">
+            <p>Computer Choice:</p>
+            <p id="computerChoiceDisplay"></p>
+        </div>
+
+        <div class="col justify-content-center text-center">
+            <p>Your Choice</p>
+            <p id="playerChoiceDisplay"></p>
+        </div>
+
+    </div>
+
+    <div class="row justify-content-center text-center" id="winnerDisplayRow">
+
+        <div class="col">
+
+        </div>
+
+        <div class="col justify-content-center text-center" id="winnerDisplay">
+            <p id="winnerDisplayText">Winner: <br> </p>
+        </div>
+
+        <div class="col">
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
