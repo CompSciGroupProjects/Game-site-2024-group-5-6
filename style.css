@@ -1,0 +1,12 @@
+.nav li{
+    background-color: #b5d6b8;
+    display:inline;
+    float:left;
+}
+.mav a{
+    display:block;
+    padding:10px;
+}
+#body{
+    background-color: #e0eed8;
+}
