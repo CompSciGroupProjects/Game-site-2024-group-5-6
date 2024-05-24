@@ -8,3 +8,18 @@ body {
     padding-bottom: 25px;
     margin-top: 75px;
 }
+
+#ruleContainer {
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #8ce58c;
+}
+
+
+.row.mb-4.mt-4 div{
+    border: solid 1px black;
+}
+
+button {
+
+}
