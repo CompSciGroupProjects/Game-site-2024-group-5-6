@@ -1,0 +1,10 @@
+body {
+    background-color: #b6d7a8;
+}
+
+.container-fluid {
+    background-color: #548158;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 75px;
+}
