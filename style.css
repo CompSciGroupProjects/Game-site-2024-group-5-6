@@ -8,5 +8,9 @@
     padding:10px;
 }
 #body{
-    background-color: #e0eed8;
+    background-color: #b6d7a8;
+}
+
+.active{
+    background-color:darkgreen;
 }
