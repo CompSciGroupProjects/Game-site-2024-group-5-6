@@ -2,7 +2,7 @@ body {
     background-color: #b6d7a8;
 }
 #rules{
-    margin-top:20px;
+    margin-top:55px;
     margin-left:50px;
     margin-right:50px;
     background-color: #8ce58c;
@@ -14,8 +14,9 @@ body {
 
 .container-fluid {
     background-color: #548158;
-    padding-top: 25px;
+    padding-top: 10px;
     text-align: center;
+
 }
 #play{
     text-align:center;
@@ -31,4 +32,14 @@ body {
 }
 .active{
     background-color:darkgreen;
+}
+#pic{
+    border:2px solid darkgreen;
+    margin-right:100px;
+    margin-left:100px;
+    margin-top:80px;
+    border-radius:10px;
+}
+#head{
+    margin-top:100px;
 }
