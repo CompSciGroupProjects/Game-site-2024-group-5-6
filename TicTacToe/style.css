@@ -7,6 +7,7 @@
 }
 body {
     margin: 0;
+    background-color: #b6d7a8;
 }
 
 .board {
@@ -22,7 +23,7 @@ body {
 .cell {
     width: var(--cell-size);
     height: var(--cell-size);
-    border: 1px solid black;
+    border: 1px solid darkgreen;
     display: flex;
     justify-content: center;
     align-items: center;
