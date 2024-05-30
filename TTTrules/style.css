@@ -15,10 +15,20 @@ body {
 .container-fluid {
     background-color: #548158;
     padding-top: 25px;
-    padding-bottom: 25px;
-    margin-top: 75px;
     text-align: center;
 }
 #play{
     text-align:center;
+}
+.nav li{
+    background-color:#b5d6b8;
+    display:inline;
+    float:left;
+}
+.nav a{
+    display:block;
+    padding:10px;
+}
+.active{
+    background-color:darkgreen;
 }
