@@ -8,8 +8,8 @@ body {
 }
 .active{
     background-color:darkgreen;
-    margin-right:75%;
 }
+
 #ruleContainer {
     border: 2px solid black;
     border-radius: 25px;

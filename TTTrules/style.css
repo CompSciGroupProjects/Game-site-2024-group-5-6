@@ -32,7 +32,6 @@ body {
 }
 .active{
     background-color:darkgreen;
-    margin-right:75%;
 }
 #pic{
     border:2px solid darkgreen;
