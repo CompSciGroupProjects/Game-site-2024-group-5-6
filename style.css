@@ -13,4 +13,21 @@
 
 .active{
     background-color:darkgreen;
+    margin-right:75%;
 }
+.card{
+    margin:5px;
+}
+#c4{
+    border:2px solid darkgreen;
+    border-radius:25px;
+}
+#ttt{
+    border:2px solid darkgreen;
+    border-radius:25px;
+}
+#rps{
+    border:2px solid darkgreen;
+    border-radius:25px;
+}
+

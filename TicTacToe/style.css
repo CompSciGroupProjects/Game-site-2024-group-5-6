@@ -9,7 +9,10 @@ body {
     margin: 0;
     background-color: #b6d7a8;
 }
-
+.active{
+    background-color:darkgreen;
+    margin-right:75%;
+}
 .board {
     width: 100vw;
     height: 100vh;
